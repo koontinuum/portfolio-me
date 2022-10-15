@@ -1,0 +1,51 @@
+header{
+    height: 8vh;
+}
+.main hr{
+    height: 1px;
+    background-color: #828282;
+}
+header a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+header a:hover{
+    color: #070707;
+    font-weight: 700;
+}
+.lang{
+    transform: rotate(0deg);
+}
+.lang a{
+    text-decoration: none;
+    color: #828282;
+}
+.lang a:hover{
+    color: #070707;
+    font-weight: 600;
+}
+main .row img{
+    width: 100%;
+}
+@media (min-width: 576px) {
+    
+}
+@media (min-width: 768px) {
+    .lang{
+        transform: rotate(-90deg);
+    }
+}
+.aboutMe{
+    background-color: #f6f6f6;
+}
+.portfolio .container div{
+    margin-top: 60px;
+}
+.portfolio .container div a{
+    font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #070707;
+}
